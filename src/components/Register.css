@@ -1,0 +1,180 @@
+/* ===== VARIABLES ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #2C3E50;
+  --subtext-color: #7F8C8D;
+  --input-bg: #ffffff;
+  --input-border: #BDC3C7;
+  --btn-bg: #2C3E50;
+  --btn-hover: #34495E;
+  --error-color: #e74c3c;
+  --success-color: #10B981;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1E293B;
+  --text-color: #F1F5F9;
+  --subtext-color: #CBD5E1;
+  --input-bg: #334155;
+  --input-border: #475569;
+  --btn-bg: #3B82F6;
+  --btn-hover: #2563EB;
+  --error-color: #F87171;
+  --success-color: #34D399;
+}
+
+/* ===== OUTER CONTAINER ===== */
+.register-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-color), #f2f3f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ===== INNER BOX ===== */
+.register-box {
+  display: flex;
+  flex-direction: row;
+  background: var(--bg-color);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 950px;
+  width: 100%;
+}
+
+/* ===== LEFT SIDE (Illustration) ===== */
+.register-left {
+  flex: 1;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.register-image {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
+/* ===== RIGHT SIDE (Form) ===== */
+.register-right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.register-right h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.register-subtext {
+  color: var(--subtext-color);
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 18px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text-color);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--text-color);
+  box-shadow: 0 0 5px rgba(44, 62, 80, 0.2);
+}
+
+/* Register button */
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--btn-bg);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background-color: var(--btn-hover);
+}
+
+/* Error & Success Text */
+.error {
+  color: var(--error-color);
+  font-size: 0.9rem;
+}
+
+.success {
+  color: var(--success-color);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Login link */
+.login-text {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--subtext-color);
+}
+
+.link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .register-box {
+    flex-direction: column;
+  }
+
+  .register-left {
+    display: none;
+  }
+
+  .register-right {
+    padding: 30px;
+  }
+}

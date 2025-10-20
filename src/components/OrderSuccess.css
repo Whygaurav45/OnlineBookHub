@@ -1,0 +1,64 @@
+/* Root variables */
+:root {
+  --bg-light: linear-gradient(135deg, #d1fae5, #ffffff);
+  --bg-dark: #111827;
+  --card-light: #ffffff;
+  --card-dark: #1f2937;
+  --text-light: #111827;
+  --text-dark: #f3f4f6;
+  --button-primary: #10b981;
+  --button-primary-hover: #059669;
+  --card-shadow: rgba(0,0,0,0.1);
+}
+
+/* Body modes */
+body.light-mode {
+  --bg: var(--bg-light);
+  --card-bg: var(--card-light);
+  --text: var(--text-light);
+}
+
+body.dark-mode {
+  --bg: var(--bg-dark);
+  --card-bg: var(--card-dark);
+  --text: var(--text-dark);
+}
+
+/* Container */
+.success-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  transition: 0.3s;
+}
+
+/* Box */
+.success-box {
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px var(--card-shadow);
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Button */
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: var(--button-primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.back-home:hover {
+  background: var(--button-primary-hover);
+}

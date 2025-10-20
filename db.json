@@ -1,0 +1,204 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Silent Patient",
+      "category": "Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+      "price":100,
+      "dop": "05-02-2019"
+    },
+    {
+      "id": "2",
+      "title": "Gone Girl",
+      "category": "Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81AFocW6qPL.jpg",
+       "price":200,
+      "dop": "24-05-2012"
+    },
+    {
+      "id": "3",
+      "title": "The Girl on the Train",
+      "category": "Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg",
+       "price":300,
+      "dop": "14-01-2015"
+    },
+    {
+      "id": "4",
+      "title": "The Woman in the Window",
+      "category": "Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81-5hqoZqkL.jpg",
+       "price":500,
+      "dop": "02-01-2018"
+    },
+    {
+      "id": "5",
+      "title": "All the Sinners Bleed",
+      "category": "Thriller / Crime",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/41Zrwp3jxML._SX329_BO1,204,203,200_.jpg",
+       "price":150,
+      "dop": "06-06-2023"
+    },
+    {
+      "id": "6",
+      "title": "The Shining Girls",
+      "category": "Thriller / Speculative",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81nDv+qDWqL.jpg",
+       "price":800,
+      "dop": "15-04-2013"
+    },
+    {
+      "id": "7",
+      "title": "The Broken Window",
+      "category": "Crime Thriller",
+      "photo": "https://m.media-amazon.com/images/I/51nfLbdQH6L.jpg",
+       "price":170,
+      "dop": "01-06-2008"
+    },
+    {
+      "id": "8",
+      "title": "Manjhi's Mayhem",
+      "category": "Crime Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/41mJJz0CunL._SX312_BO1,204,203,200_.jpg",
+       "price":200,
+      "dop": "21-11-2022"
+    },
+    {
+      "id": "9",
+      "title": "Dracula",
+      "category": "Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81WuP9ZVwvL.jpg",
+       "price":700,
+      "dop": "26-05-1897"
+    },
+    {
+      "id": "10",
+      "title": "Pet Sematary",
+      "category": "Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/91w-KtK2DML.jpg",
+       "price":170,
+      "dop": "14-11-1983"
+    },
+    {
+      "id": "11",
+      "title": "The Haunting of Hill House",
+      "category": "Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81U8HuesbGL.jpg",
+       "price":1000,
+      "dop": "16-10-1959"
+    },
+    {
+      "id": "12",
+      "title": "It",
+      "category": "Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81dM2ZY8ltL.jpg",
+       "price":90,
+      "dop": "15-09-1986"
+    },
+    {
+      "id": "13",
+      "title": "Bird Box",
+      "category": "Horror / Mystery",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81XCon8pHFL.jpg",
+       "price":1300,
+      "dop": "25-03-2014"
+    },
+    {
+      "id": "14",
+      "title": "Blind Date",
+      "category": "Horror / Teen",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/51wzdbV4QUL.jpg",
+       "price":1900,
+      "dop": "01-01-1987"
+    },
+    {
+      "id": "15",
+      "title": "Meddling Kids",
+      "category": "Funny Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81VZYlAdI0L.jpg",
+       "price":900,
+      "dop": "04-04-2017"
+    },
+    {
+      "id": "16",
+      "title": "How to Sell a Haunted House",
+      "category": "Funny Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81XliB9JbRL.jpg",
+       "price":1002,
+      "dop": "16-05-2023"
+    },
+    {
+      "id": "17",
+      "title": "John Dies at the End",
+      "category": "Funny Horror / Supernatural",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81P2rDL7S1L.jpg",
+       "price":1040,
+      "dop": "01-04-2007"
+    },
+    {
+      "id": "18",
+      "title": "Horrorstör",
+      "category": "Funny Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81n3h0UoA9L.jpg",
+       "price":1890,
+      "dop": "10-05-2014"
+    },
+    {
+      "id": "19",
+      "title": "The Cabin at the End of the World",
+      "category": "Horror / Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81hzi2rWZRL.jpg",
+       "price":120,
+      "dop": "02-08-2018"
+    },
+    {
+      "id": "20",
+      "title": "Mexican Gothic",
+      "category": "Horror",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81HS7wj5h+L.jpg",
+       "price":160,
+      "dop": "30-06-2020"
+    },
+    {
+      "id": "21",
+      "title": "The Outsider",
+      "category": "Horror / Crime Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81d4fAfwIOL.jpg",
+       "price":786,
+      "dop": "22-05-2018"
+    },
+    {
+      "id": "22",
+      "title": "The Institute",
+      "category": "Horror / Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81b1bJvLg9L.jpg",
+       "price":80,
+      "dop": "10-09-2019"
+    },
+    {
+      "id": "23",
+      "title": "Dracul",
+      "category": "Horror / Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81NLJ9CewyL.jpg",
+       "price":970,
+      "dop": "26-05-2018"
+    },
+    {
+      "id": "24",
+      "title": "The Girl with All the Gifts",
+      "category": "Horror / Speculative",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/91jKsu7JT3L.jpg",
+       "price":870,
+      "dop": "29-06-2014"
+    },
+    {
+      "id": "25",
+      "title": "Lock Every Door",
+      "category": "Thriller",
+      "photo": "https://images-na.ssl-images-amazon.com/images/I/81t2JcKQzmL.jpg",
+       "price":333,
+      "dop": "19-01-2018"
+    }
+  ]
+}

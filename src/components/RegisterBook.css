@@ -1,0 +1,47 @@
+.registerbook-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerbook-box {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 40px 60px;
+  width: 500px;
+  text-align: center;
+}
+
+.registerbook-box h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.registerbook-box input,
+.registerbook-box textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+
+.registerbook-box button {
+  margin-top: 10px;
+  background: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.registerbook-box button:hover {
+  background: #eb5e3e;
+}
